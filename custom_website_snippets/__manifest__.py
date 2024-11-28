@@ -3,7 +3,7 @@
     "summary": """ Custom Website Snippets """,
     "description": """ Custom Website Snippets. """,
     "version": "1.0",
-    "author": "Calki Khunt",
+    "author": "Jidnyesha Sonawane",
     "category": "Website",
     "depends": ["website", "website_sale"],
     "data": [
@@ -12,6 +12,7 @@
     "assets": {
         "web.assets_frontend": [],
     },
+    "images": ["static/description/thumbnail.png"],
     "installable": True,
     "application": False,
     "auto_install": False,
