@@ -3,7 +3,7 @@
     "summary": """ Custom Website Snippets """,
     "description": """ Custom Website Snippets. """,
     "version": "1.0",
-    "author": "Jidnyesha Sonawane",
+    "author": "Calki Khunt",
     "category": "Website",
     "depends": ["website", "website_sale"],
     "data": [
