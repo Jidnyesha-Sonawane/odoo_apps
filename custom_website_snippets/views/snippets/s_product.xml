@@ -42,15 +42,8 @@
 		</xpath>
 	</template>
 	<record id="custom_website_snippets.s_product_000_scss" model="ir.asset">
-		<field name="name">
-			Product 000 SCSS
-		</field>
-		<field name="bundle">
-			web.assets_frontend
-		</field>
-		<field name="path">
-			custom_website_snippets/static/src/snippets/s_product_snippet/000.scss
-		</field>
-		<field name="active" eval="False" />
+		<field name="name">Product 000 SCSS</field>
+		<field name="bundle">web.assets_frontend</field>
+		<field name="path">custom_website_snippets/static/src/snippets/s_product_snippet/000.scss</field>
 	</record>
 </odoo>
