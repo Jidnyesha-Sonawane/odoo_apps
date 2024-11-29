@@ -5,7 +5,7 @@
     "version": "1.0",
     "author": "Jidnyesha Sonawane",
     "category": "Website",
-    "depends": ["website", "website_sale"],
+    "depends": ["website", "website_sale", "sale_management"],
     "data": [
         'views/snippets/s_product.xml'
     ],
