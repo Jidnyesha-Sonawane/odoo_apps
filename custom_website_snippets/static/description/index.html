@@ -1,167 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Furniture Website</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-    
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    
-    <link rel="stylesheet" href="styles.css">
-    
-</head>
-<body>
-
-<!--NAV-->
-<nav class="flex">
-    <figure class="logo"><img src="icon.png" alt="LOGO." /></figure>
-    <a href="javascript:void(0)" class="ham" onclick="closer()">
-    </a>
-</nav>
-
-<!--MENU-->
-<menu>
-    <section class="details padding_1x">
-        <a href="javascript:void(0)"><iconify-icon icon="iconoir:phone"></iconify-icon> (+000) 123 4567</a>
-        <a href="mailto:info@websitename.com"><iconify-icon icon="mdi:email-outline"></iconify-icon> info@websitename.com</a>
-        <a href="javascript:void(0)"><iconify-icon icon="entypo:address"></iconify-icon> 24971 Avenue Stanford, Santa Clarita, CA 91355</a>
-        <a href="javascript:void(0)"><iconify-icon icon="ri:time-line"></iconify-icon> Every day, 6am - 6pm</a>
-    </section>
-    <section class="links padding_1x">
-        <a href="#">Home</a>
-        <a href="#">Recycling</a>
-        <a href="#">Contact us</a>
-        <a href="#">About us</a>
-    </section>
-</menu>
-
-<!--HEADER-->
-<header>
-    <article>
-        <h1 class="title big"> <em>Chic</em> & <em>Unique</em> Pieces For Your Home<em>.</em> </h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-        <a href="#More" class="btn btn_3">Explore more</a>
-    </article>
-</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Mansingh Furnitures</title>
+  </head>
 
 
-<!--MAIN-->
-<main id="More">
-    <!--DIVISION_1-->
-    <div class="divisions division_1 flex padding_2x">
-        <section class="flex_content padding_2x">
-            <figure>
-                <img src="https://i.postimg.cc/qqt4ntzz/01.jpg" alt="" loading="lazy" />
-            </figure>
-        </section>
-        <section class="flex_content padding_2x">
-            <article>
-                <h2 class="title medium">Let's make your Interior better.</h2>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                <aside class="fixed_flex">
-                    <span>
-                        <h4 class="title small">200+</h4>
-                        <p>New Furnitures</p>
-                    </span>
-                    <span>
-                        <h4 class="title small">100+</h4>
-                        <p>Recycled Products</p>
-                    </span>
-                </aside>
-            </article>
-        </section>
+
+  <body>
+
+
+
+    <div class="section__container logo__header">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHtbslg5eiUtN6gc0LZD05XJER1xC1lspaBreAVo1xGERbz4cCHM27XkBEVTTWxYVWq4v3_e4LQDEvK9neZUoGq0zPn-prMAc393VMxBpyYLgaLpE-AuqsE32_Zjo-T6NfFxKHMXQULY6SQJRhyCrbw2Hd_3zkfUn5uamGAD4-4GXXgru8a7-hsgEjdA/s320/logo.png" alt="logo" />
+      <div class="contact__us">
+        <p><i class="ri-mail-fill"></i> mansinghfurnitures@gmail.com</p>
+        <p><i class="ri-phone-fill"></i> +91999000999</p>
+      </div>
     </div>
-
-    <!--DIVISION_2-->
-    <div class="divisions division_2 flex padding_2x">
-        <section class="flex_content padding_2x">
-            <figure>
-                <img src="https://i.postimg.cc/XvVWL1rM/div-2.jpg" alt="" loading="lazy" />
-                <figcaption class="padding_1x">
-                    <h2 class="title medium">What We Do?</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </figcaption>
-            </figure>
-        </section>
-        <section class="flex_content cards padding_2x flex">
-            <figure class="flex card">
-                <img src="https://i.postimg.cc/g2ydvbkq/01.jpg" alt="" loading="lazy" />
-                <figcaption class="padding_2x">
-                    <h3 class="title small">Indoor & Outdoor Furniture</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </figcaption>
-            </figure>
-            <figure class="flex card">
-                <figcaption class="padding_2x">
-                    <h3 class="title small">Large contracts for Doors</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </figcaption>
-                <img src="https://i.postimg.cc/FsLhHJM6/02.jpg" alt="" loading="lazy" />
-            </figure>
-            <figure class="flex card">
-                <img src="https://i.postimg.cc/y65VKTb9/03.jpg" alt="" loading="lazy" />
-                <figcaption class="padding_2x">
-                    <h3 class="title small">Kitchen, Bed room sets</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </figcaption>
-            </figure>
-            <figure class="flex card">
-                <figcaption class="padding_2x">
-                    <h3 class="title small">Exibition Stands</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </figcaption>
-                <img src="https://i.postimg.cc/j2GKhs7v/04.jpg" alt="" loading="lazy" />
-            </figure>
-        </section>
-    </div>
-
-    <div class="divisions division_3 padding_4x">
-        <section class="flex padding_1x">
-        <figure>
-            <img src="https://i.postimg.cc/T3vfL3G3/div-3.png" alt="" loading="lazy" />
-        </figure>
-        <article>
-            <h3 class="title small">Recycle old wood pallets to create Beautiful Furniture Items.</h3>
-            <p>We have a dedicated team to recycle wood waste to create artistic gadgets such as <b>Mobile Holders</b>, <b>Desktop Clocks</b>, <b>Wall Clocks</b>,<b>Pen Holders</b>, <b>Chop Boards</b>, <b>Decorative Items</b> & much more...</p>
-            <a href="#" class="btn btn_1">Contact us</a>
-        </article>
-        </section>
-    </div>
-</main>
-
-<!--FOOTER-->
-<footer class="flex">
-    <section class="flex_content padding_2x">
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <a href="#"><i class="fa fa-youtube"></i></a>
+    <nav>
+      <div class="section__container nav__links">
+        <span><a href="#">HOME</a></span>
+        <span><a href="#">LIVING ROOM</a></span>
+        <span><a href="#">DINING ROOM</a></span>
+        <span><a href="#">KITCHEN</a></span>
+        <span><a href="#">BATHROOM</a></span>
+        <span><a href="#">OFFICE</a></span>
+        <span><a href="#">LIGHT</a></span>
+        <span><a href="#">CONTACT US</a></span>
+        <span><a href="#">BLOG</a></span>
+        <span>
+          <a href="#">
+            <i class="ri-shopping-cart-2-line"></i>
+          </a>
+        </span>
+      </div>
+    </nav>
+    <header>
+      <div class="section__container header__container">
+        <p>Multicolor Collection</p>
+        <h1>Simple Product</h1>
+        <button class="btn">SHOP NOW</button>
+      </div>
+    </header>
+    <section class="banner__1">
+      <div class="section__container banner__1__container">
+        <div class="icon">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2T0rL0d_i9c5QUQuKVPozw9BKLzl38w48iSE9So6YWrT8Kp84kkopbYQfxc4CFtneSHmG_OX8gxhTc7eISsi_ljYVsFJR9-tGDjaPC-LXEko0_kuI3JcgTk4CdeIoQS_iIxFIVWyqEvdHatthfO8nHHLxwGZRdyLilFnJI4PS8jjWQkkaBCpTLyacIQ/s320/icon-1.png" alt="icon" />
+          <span>SOFA</span>
+        </div>
+        <div class="icon">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0N_KhoTcCsmg_2YpftbgWCsnqpf3DZbupbFI_w0pJecXR_jhqdmoKgFYT3tkFB9-9TwoLena6gDB6neb-JOcELTw1i7W8XcQ3Ks-A0rvxoBLaGctXpUHQKdaisCF8iwKNZzkQpPl1GVkJCvAozsLHOXNPzXJvqQpHPNI8NtxYESBhXF5798OkO9NsEA/s320/icon-2.png" alt="icon" />
+          <span>CHAIR</span>
+        </div>
+        <div class="icon">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg3AWETwCuvNx_yNldNe03Dz8SP2OH_xZ2DORdYcQx-nme9yUnOoqnzTIJbMaS0czeDx6HSdl-UEBfuLZujEo9bUpQEb2wjs3-L1t5ojdmIjxQZ3pAs5sm_eeT21XKHQUdABeUfxeA5tgujgvURIweA0TBtyiH0cv3vzOT_Km7shJhdbg-lipi8rwmyg/s320/icon-3.png" alt="icon" />
+          <span>MINI TABLE</span>
+        </div>
+        <div class="icon">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtITnreIibR-xXHBivNnSP4CYox28k1uFAgpAQcDpL4cVlS3IzUTo-tALuA7cP4lbuq0O1rMs1FjPBdrGQ-t1vf3I0TZA-AR22ZV3mlKPDCsjyYBh2h_L3-FoW9MMXarRb_sHdCWvGZkeXJGMtrVlCqME6rOttvyHX8ykk--jMx8Fdm-VR4dniBYcOpA/s320/icon-4.png" alt="icon" />
+          <span>LAMP</span>
+        </div>
+        <div class="icon">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4aRXGCkZhy0rKj-T4Tr98QKDcQb_0qovv1XLV377ss7w_UAz1dGg9Yzwnu_7_aS9LH94Y5Rfd3QvvU3tBkjY8LCn9AKZntKsaXPbBCXInbjl0gcYpGalY9AxUqWokIbsP5ZwDlCyzV9lyJUgpM2vszfMkqWyAvhZzuKRAjLK-H70vV3ZvcAqTd0elGA/s320/icon-5.png" alt="icon" />
+          <span>TABLE</span>
+        </div>
+        <div class="icon">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk8dWVxJU2Jkg2-TvhJ87vwTzx29m135cuOHNyftWuLTTW3m81jU2CUEyKutlkGQsHoccG86kX-w2WnqfoEtomlq6Wc0LVJzv4G8D7FuVVHQITFQNihUi6_n-kx20KiyrQH8jvmH3OZBB-AXDor41WNzqoEzxSwFc2HwwkcnebxAGCUDXsyztXbAf55A/s320/icon-6.png" alt="icon" />
+          <span>DINING</span>
+        </div>
+        <div class="icon">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJCIytqq8wE7LUsNhdS4xSVCEVCvCphh0Glq1gQql4-ews1TrSMYvL397FHcC3wi-mvYa7jaPX7Met0AONz0MdyOBMzxyFXSmu7z8GnPXU8lqNH5hjiH5xp1U22r3wX6J6VACuxLPHFCvZEdHd1T7fubCFRgVGlZR47pPSi87kSel9QQVXjdMYoOVD-w/s1600/icon-7.png" alt="icon" />
+          <span>BED</span>
+        </div>
+      </div>
     </section>
-    <section class="flex_content">
-        <a href="#">Home</a>
-        <a href="#">Contact us</a>
-        <a href="#">About us</a>
-        <a href="#">Cookie Policy</a>
+
+    <section class="arrivals">
+      <div class="section__container arrivals__container">
+        <div class="section__header">
+          <h3 class="section__title">NEW ARRIVALS</h3>
+          <div class="arrivals__nav">
+            <span>ALL</span>
+            <span>CHAIR</span>
+            <span>SOFAS</span>
+            <span>TABLES</span>
+            <span>LAMPS</span>
+          </div>
+        </div>
+        <div class="arrivals__grid">
+          <div class="arrivals__image">
+            <img src="https://img.freepik.com/free-photo/green-sofa-white-living-room-with-free-space_43614-834.jpg?w=1060&t=st=1684693630~exp=1684694230~hmac=cc31cdd69ee5b9d9875e5083bce252df461fcf8b66d61e5ecfb3cbc957b4d442" alt="arrivals" />
+          </div>
+          <div class="arrivals__image">
+            <img src="https://img.freepik.com/free-psd/chair-pillow_176382-882.jpg?w=740&t=st=1684695264~exp=1684695864~hmac=19914ccfc7556727f755e1906293a78962838602c779d49e9b826211ecc5900f" alt="arrivals" />
+          </div>
+          <div class="arrivals__image">
+            <img src="https://img.freepik.com/free-photo/dining-room-arrangement_23-2148893942.jpg?w=1060&t=st=1684693750~exp=1684694350~hmac=72519005e36319f81a06e13eb1c23550dd0fe1962608802e158c7cfd8beb8ce8" alt="arrivals" />
+          </div>
+          <div class="arrivals__image">
+            <img src="https://img.freepik.com/free-photo/vintage-ceiling-light-lamp_74190-7670.jpg?w=1060&t=st=1684693802~exp=1684694402~hmac=7168cff7ef994b9283e63d3bd7e2ec5397d7521ee43ef961d5fd814b30e17776" alt="arrivals" />
+          </div>
+          <div class="arrivals__image">
+            <img src="https://lh3.googleusercontent.com/n1cBw-rcPFHBw20spR1q-ArEceTELU01Krw3tjG2qFp2dknX9QOP7tClfDBur74_SxCwiFviILmcMO1IMOp1GdGio6W2EveSGvrF0Jo5" alt="arrivals" />
+          </div>
+        </div>
+      </div>
     </section>
-    <section class="flex_content padding_1x">
-        <p>© 2023 website name || All rights reserved</p>
+
+    <section class="banner__2">
+      <div class="section__container banner__2__container">
+        <p>SUPER SALE</p>
+        <h2>UP TO 50%</h2>
+        <div class="countdown">
+          <div class="square">
+            <span>28</span>
+            <span>DAYS</span>
+          </div>
+          <div class="square">
+            <span>21</span>
+            <span>HRS</span>
+          </div>
+          <div class="square">
+            <span>15</span>
+            <span>MINS</span>
+          </div>
+          <div class="square">
+            <span>28</span>
+            <span>SEC</span>
+          </div>
+        </div>
+        <button>SHOP NOW</button>
+      </div>
     </section>
-</footer>
 
+    <section class="seller">
+      <div class="section__container seller__container">
+        <div class="section__header">
+          <div class="section__title">BEST SELLER</div>
+          <div class="seller__nav">
+            <span><i class="ri-arrow-left-s-line"></i></span>
+            <span><i class="ri-arrow-right-s-line"></i></span>
+          </div>
+        </div>
+        <div class="seller__grid">
+          <div class="seller__card">
+            <img src="https://img.freepik.com/free-psd/chair-pillow_176382-880.jpg?w=740&t=st=1684694215~exp=1684694815~hmac=f19618ded1a7b35b19117950fcbd1be92a9af85fc2aa1674c647245a0d74af2e" alt="seller" />
+            <div class="seller__card__details">
+              <p>Lounge Chair</p>
+              <p class="price"><span>$28.72</span> <del>$35.00</del></p>
+            </div>
+          </div>
+          <div class="seller__card">
+            <img src="https://i.etsystatic.com/9814344/r/il/5fca3c/4218303695/il_794xN.4218303695_4ki7.jpg" alt="seller" />
+            <div class="seller__card__details">
+              <p>Afterroom Side Table</p>
+              <p class="price"><span>$35.50</span> <del>$50.00</del></p>
+            </div>
+          </div>
+          <div class="seller__card">
+            <img src="https://img.freepik.com/free-psd/comfortable-modern-chair_176382-799.jpg?w=740&t=st=1684694076~exp=1684694676~hmac=31d86f07d89cc723c3adff25514e68b7666b3259fd61ed1dc5cde6bfc3b9d677" alt="seller" />
+            <div class="seller__card__details">
+              <p>Dining Chair</p>
+              <p class="price"><span>$18.75</span> <del>$30.00</del></p>
+            </div>
+          </div>
+          <div class="seller__card">
+            <img src="https://lh3.googleusercontent.com/yyKw-oJH-5zAsDxPft7m6iRl3RhBHG44vESNgNv6Mv_Qi7FCycic7_4By4Groj6w2XxdQ7FJLlKRyh7RUYBYc7QEDFzs2Gfi6aJjWjU" alt="seller" />
+            <div class="seller__card__details">
+              <p>Flower Vase</p>
+              <p class="price"><span>$40.72</span> <del>$45.00</del></p>
+            </div>
+          </div>
+          <div class="seller__card">
+            <img src="https://img.freepik.com/free-photo/furniture-modern-studio-lifestyle-green_1122-1837.jpg?1&w=1060&t=st=1684694356~exp=1684694956~hmac=8df3480ffbea1f35ad2a0a45f85a7686da66bd90bb43a2bce9dede0b0a9faafb" alt="seller" />
+            <div class="seller__card__details">
+              <p>Club Chair</p>
+              <p class="price"><span>$25.25</span> <del>$35.00</del></p>
+            </div>
+          </div>
+          <div class="seller__card">
+            <img src="https://img.freepik.com/free-photo/empty-modern-room-with-furniture_23-2149178350.jpg?w=1060&t=st=1684694379~exp=1684694979~hmac=e2f14b1640fc2483e4b67f8aca085cccb9e4ea2ae2f9ff45c1512a348e916c0d" alt="seller" />
+            <div class="seller__card__details">
+              <p>Dining Chair</p>
+              <p class="price"><span>$40.00</span> <del>$42.00</del></p>
+            </div>
+          </div>
+          <div class="seller__card">
+            <img src="https://img.freepik.com/free-photo/decoration-seat-wood-chair-rocking_1203-5192.jpg?w=1060&t=st=1684694188~exp=1684694788~hmac=3915fcc1e55abb51b5e32c7c04995e13a607938d2415c7f445ca35582e139573" alt="seller" />
+            <div class="seller__card__details">
+              <p>Rocking Chair</p>
+              <p class="price"><span>$24.50</span> <del>$45.00</del></p>
+            </div>
+          </div>
+          <div class="seller__card">
+            <img src="https://img.freepik.com/free-photo/mid-century-modern-living-room-interior-design-with-monstera-tree_53876-129804.jpg?w=1060&t=st=1684695050~exp=1684695650~hmac=d79278c97db208bedf9b81d752d48d01b088c66963f5b82f4d4485336411315c" alt="seller" />
+            <div class="seller__card__details">
+              <p>Arm Chair</p>
+              <p class="price"><span>$50.25</span> <del>$65.00</del></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!--ADDITIONAL-->
-<div class="additional flex"></div>
-<a href="#" id="roll_back" class="animate"><i class="fa fa-angle-up"></i></a>
+    <section class="banner__3">
+      <div class="section__container banner__3__container">
+        <p>Built work</p>
+        <h2>Custom Furniture Design</h2>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
-</body>
+    <section class="product">
+      <div class="section__container product__container">
+        <div class="section__header">
+          <h3 class="section__title">SPECIAL PRODUCT</h3>
+          <div class="product__nav">
+            <span><i class="ri-arrow-left-s-line"></i></span>
+            <span><i class="ri-arrow-right-s-line"></i></span>
+          </div>
+        </div>
+        <div class="product__grid">
+          <div class="product__image">
+            <img src="https://lh3.googleusercontent.com/5YHS2iz2WqTPH0fVuQJjbtets4K3NEVdz8pIBIU-t1pS8_SoeRpeIeFgdZJENPwmNqeu0WuLLL95_g-A29zcDPX9b5TB66f5TLBVZjEL" alt="product" />
+          </div>
+          <div class="product__image">
+            <img src="https://img.freepik.com/free-photo/stack-books-black-wooden-table_93675-135412.jpg?size=626&ext=jpg&ga=GA1.1.2012571808.1684693417&semt=ais" alt="product" />
+          </div>
+          <div class="product__image">
+            <img src="https://lh3.googleusercontent.com/fiT0FJq7rRXUunIvB41YUU4oXb0NAlhbswXlV0xW9XpiOSUzKdF7SyyBSd86q0ATZCYfvdlDfaievOScmuFeXu-6l0DGGc4TqJ2bWco" alt="product" />
+          </div>
+          <div class="product__image">
+            <img src="https://img.freepik.com/free-photo/sofa-chair-isolate-white-surface_1150-26021.jpg?w=360&t=st=1684695584~exp=1684696184~hmac=dd5c205449bf7227fab4e4947827a8d8f8029b73553b121e302c6452cb27633b" alt="product" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog">
+      <div class="section__container blog__container">
+        <div class="section__header">
+          <h3 class="section__title">OUR BLOGS</h3>
+        </div>
+        <div class="blog__grid">
+          <div class="blog__card">
+            <img src="https://lh3.googleusercontent.com/j6VlRaK-a0byxeGp9Rim6-miTCX_tWmkX_aE3-eGtqZYHzItYfhSV59tZVBUtOQl5CoEZITxLmGJEiInVu3NayC_hbACFSagldKtA_AA" alt="blog" />
+            <div class="blog__details">
+              <h4>Sustainable Furniture.</h4>
+              <p>
+               
+Protect furniture by keeping it away from direct sunlight and water. 
+Maintain the finish and polish with regular cleaning using appropriate products to preserve its beauty and longevity.
+              </p>
+              <span>read more</span>
+            </div>
+          </div>
+          <div class="blog__card">
+            <img src="https://img.freepik.com/free-psd/modern-kitchen-design_176382-996.jpg?w=740&t=st=1684695648~exp=1684696248~hmac=f39b0371133f95887312bc3690598ca35f089aaec504afd9c638a87bf82ac94b" alt="blog" />
+            <div class="blog__details">
+              <h4>Furniture Care and Maintenance.</h4>
+              <p>
+                Sustainable furniture offers durability, reduces environmental impact,
+                 and supports local craftsmen. It promotes eco-conscious living, ensures long-lasting quality of interior design.
+              </p>
+              <span>read more</span>
+            </div>
+          </div>
+          <div class="blog__card">
+            <img src="https://lh3.googleusercontent.com/QIU_yZ9kwIgX-QoNNT0EjiUsUEAALdwuz5Ihi-1i3N5C4vdWmKC9IlPisrF_NBZAwl25I4E7ek_Q-7F9c7DdVEkCESdWa_WoREkQHbAw" alt="blog" />
+            <div class="blog__details">
+              <h4>Interior Design Tips.</h4>
+              <p>
+               
+Furniture has the power to completely transform a space. It adds functionality,
+ defines the style, and creates a welcoming atmosphere,
+  turning a house into a personalized and comfortable home.
+              </p>
+              <span>read more</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHtbslg5eiUtN6gc0LZD05XJER1xC1lspaBreAVo1xGERbz4cCHM27XkBEVTTWxYVWq4v3_e4LQDEvK9neZUoGq0zPn-prMAc393VMxBpyYLgaLpE-AuqsE32_Zjo-T6NfFxKHMXQULY6SQJRhyCrbw2Hd_3zkfUn5uamGAD4-4GXXgru8a7-hsgEjdA/s320/logo.png" alt="logo" />
+          <p>
+            Find a wide range of high-quality furniture pieces that will elevate
+            the style and functionality of your home.
+          </p>
+          <p><i class="ri-phone-fill"></i> +91999000999</p>
+          <p>
+            <i class="ri-map-pin-2-fill"></i> Odisha, Bhubaneswar, India
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>INFORMATION</h4>
+          <p>Site Map</p>
+          <p>Search Terms</p>
+          <p>Advance Search</p>
+          <p>Privacy Policy</p>
+          <p>Suppliers</p>
+          <p>Our Stores</p>
+        </div>
+        <div class="footer__col">
+          <h4>MY ACCOUNT</h4>
+          <p>Login</p>
+          <p>About Us</p>
+          <p>Wishlist</p>
+          <p>Checkout</p>
+          <p>FAQs</p>
+          <p>Contact Us</p>
+        </div>
+      </div>
+      <div class="footer__bar">
+         &#169; 2022 Pratik mansingh.  All rights reserved.
+      </div>
+    </footer>
+  </body>
 </html>
